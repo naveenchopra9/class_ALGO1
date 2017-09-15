@@ -1,0 +1,36 @@
+Without  First_Pivot
+
+n        Type_pivot                         Random              Sorted              Almost Sorted
+10000    RANDOM                            0.005596             0.001697             0.001671     
+10000    THREE NUMBER MEDIAN 1             0.002598             0.001200             0.001541     
+10000    THREE NUMBER MEDIAN 2             0.002447             0.001079             0.001046     
+
+
+100000   RANDOM                            0.029470             0.018041             0.018327     
+100000   THREE NUMBER MEDIAN 1             0.027053             0.012970             0.015296     
+100000   THREE NUMBER MEDIAN 2             0.028431             0.012788             0.012814     
+
+
+1000000  RANDOM                            0.344734             0.227195             0.215937     
+1000000  THREE NUMBER MEDIAN 1             0.316660             0.142666             0.211774     
+1000000  THREE NUMBER MEDIAN 2             0.324797             0.155313             0.154397     
+
+
+10000000 RANDOM                            3.901301             2.407116             2.506823     
+10000000 THREE NUMBER MEDIAN 1             3.649780             1.649120             2.068474     
+10000000 THREE NUMBER MEDIAN 2             3.687838             1.684595             1.701225    
+
+
+With First_Pivot
+
+n        Type_pivot                         Random               Sorted               Almost Sorted
+10000   FIRST                              0.005184             0.191125             0.182781     
+10000    RANDOM                            0.002298             0.001622             0.001526     
+10000    THREE NUMBER MEDIAN 1             0.002169             0.000994             0.001140     
+10000    THREE NUMBER MEDIAN 2             0.002354             0.001065             0.001196     
+
+
+100000    FIRST                             0.027589             19.132842            18.457374     
+100000    RANDOM                            0.029816             0.019861             0.018657     
+100000    THREE NUMBER MEDIAN 1             0.026867             0.013372             0.016956     
+100000    THREE NUMBER MEDIAN 2             0.027791             0.013552             0.012871
